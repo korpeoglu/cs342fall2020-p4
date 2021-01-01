@@ -6,7 +6,7 @@
 #define MODE_APPEND 1
 #define BLOCKSIZE 4096 // bytes
 
-int create_format_vdisk (char *vdiskname, int m);
+int create_format_vdisk (char *vdiskname, unsigned int m);
 
 int vsfs_mount (char *vdiskname);
 
